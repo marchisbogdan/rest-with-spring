@@ -29,5 +29,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-jersey')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('com.h2database:h2')
+	runtime group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '1.5.10.RELEASE'
+	
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
